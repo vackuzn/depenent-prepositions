@@ -1,0 +1,822 @@
+[
+  {
+    "word": "account __",
+    "options": ["for", "of", "with", "to"],
+    "correct": ["for"],
+    "example": "She had to account for the missing money."
+  },
+  {
+    "word": "accuse __",
+    "options": ["of", "to", "with", "for"],
+    "correct": ["of"],
+    "example": "He was accused of stealing the car."
+  },
+  {
+    "word": "accustom __",
+    "options": ["of", "to", "with", "for"],
+    "correct": ["to"],
+    "example": "He quickly accustomed himself to his new surroundings."
+  },
+  {
+    "word": "agree __",
+    "options": ["with", "about", "to", "for"],
+    "correct": ["with", "about"],
+    "example": "I completely agree with your decision. We agree about the importance of education."
+  },
+  {
+    "word": "amount __",
+    "options": ["for", "to", "with", "of"],
+    "correct": ["to"],
+    "example": "Her debts amounted to over $5,000."
+  },
+  {
+    "word": "apologize __",
+    "options": ["to", "for", "with", "about"],
+    "correct": ["to", "for"],
+    "example": "I apologize to you for my mistake. He apologized for being late to the meeting."
+  },
+  {
+    "word": "appeal __",
+    "options": ["to", "for", "with", "about"],
+    "correct": ["to"],
+    "example": "The idea of living in the city never appealed to him."
+  },
+  {
+    "word": "apply __",
+    "options": ["to", "for", "with", "about"],
+    "correct": ["to"],
+    "example": "You can apply the same technique to solve this problem."
+  },
+  {
+    "word": "approve __",
+    "options": ["of", "to", "with", "for"],
+    "correct": ["of"],
+    "example": "She doesn't approve of the way I spend my money."
+  },
+  {
+    "word": "attach __",
+    "options": ["to", "for", "with", "about"],
+    "correct": ["to"],
+    "example": "I attached a note to the gift."
+  },
+  {
+    "word": "attend __",
+    "options": ["to", "for", "with", "about"],
+    "correct": ["to"],
+    "example": "The doctor will attend to the patient now."
+  },
+  {
+    "word": "attribute __",
+    "options": ["to", "for", "with", "about"],
+    "correct": ["to"],
+    "example": "She attributes her success to hard work and determination."
+  },
+  {
+    "word": "base __",
+    "options": ["on", "of", "with", "for"],
+    "correct": ["on"],
+    "example": "His theory is based on some new scientific discoveries."
+  },
+  {
+    "word": "believe __",
+    "options": ["in", "to", "with", "about"],
+    "correct": ["in"],
+    "example": "I believe in your ability to succeed."
+  },
+  {
+    "word": "belong __",
+    "options": ["to", "of", "with", "for"],
+    "correct": ["to"],
+    "example": "This book belongs to me."
+  },
+  {
+    "word": "blame __",
+    "options": ["for", "of", "with", "to"],
+    "correct": ["for"],
+    "example": "They blamed the accident on bad weather."
+  },
+  {
+    "word": "charge __",
+    "options": ["for", "of", "with", "to"],
+    "correct": ["for"],
+    "example": "The restaurant charged me $10 for the meal."
+  },
+  {
+    "word": "comment __",
+    "options": ["on", "of", "with", "to"],
+    "correct": ["on"],
+    "example": "He commented on the latest news from the government."
+  },
+  {
+    "word": "compare __",
+    "options": ["to", "with", "of", "about"],
+    "correct": ["to", "with"],
+    "example": "It's difficult to compare his skills to those of a seasoned professional. They compared their results with the ones from the previous study."
+  },
+  {
+    "word": "compete __",
+    "options": ["with", "of", "to", "about"],
+    "correct": ["with"],
+    "example": "We're competing with other companies for the contract."
+  },
+  {
+    "word": "concentrate __",
+    "options": ["on", "of", "with", "about"],
+    "correct": ["on"],
+    "example": "She concentrated on her studies and graduated with honors."
+  },
+  {
+    "word": "congratulate __",
+    "options": ["on", "of", "with", "for"],
+    "correct": ["on"],
+    "example": "I want to congratulate you on your new job."
+  },
+  {
+    "word": "connect __",
+    "options": ["with", "of", "to", "for"],
+    "correct": ["with"],
+    "example": "The Internet has connected people all over the world."
+  },
+  {
+    "word": "consider __",
+    "options": ["as", "of", "with", "for"],
+    "correct": ["as"],
+    "example": "Many people consider him as one of the greatest scientists of all time."
+  },
+  {
+    "word": "consist __",
+    "options": ["of", "with", "from", "in"],
+    "correct": ["of"],
+    "example": "The team consists of experienced professionals."
+  },
+  {
+    "word": "contrast __",
+    "options": ["with", "of", "from", "for"],
+    "correct": ["with"],
+    "example": "The new model contrasts with the previous one in many ways."
+  },
+  {
+    "word": "cope __",
+    "options": ["with", "of", "from", "on"],
+    "correct": ["with"],
+    "example": "She is trying to cope with the stress of her new job."
+  },
+  {
+    "word": "count __",
+    "options": ["on", "of", "with", "for"],
+    "correct": ["on"],
+    "example": "I know I can count on you to help me when I need it."
+  },
+  {
+    "word": "deal __",
+    "options": ["with", "of", "from", "for"],
+    "correct": ["with"],
+    "example": "The company needs to deal with the problem of declining sales."
+  },
+  {
+    "word": "dedicate __",
+    "options": ["to", "of", "with", "for"],
+    "correct": ["to"],
+    "example": "She has dedicated her life to helping others."
+  },
+  {
+    "word": "depend __",
+    "options": ["on", "of", "with", "from"],
+    "correct": ["on"],
+    "example": "I depend on public transportation to get to work."
+  },
+  {
+    "word": "devote __",
+    "options": ["to", "of", "with", "for"],
+    "correct": ["to"],
+    "example": "He has devoted his career to studying climate change."
+  },
+  {
+    "word": "differ __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "This painting differs from his earlier works in style and content."
+  },
+  {
+    "word": "disapprove __",
+    "options": ["of", "with", "from", "for"],
+    "correct": ["of"],
+    "example": "My parents disapprove of my choice to become an artist."
+  },
+  {
+    "word": "discourage __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "Don't let anyone discourage you from pursuing your dreams."
+  },
+  {
+    "word": "distinguish __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "Her talent for singing distinguishes her from other performers."
+  },
+  {
+    "word": "distract __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "The noise outside is distracting me from my work."
+  },
+  {
+    "word": "divert __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "The comedian diverted the audience from their worries with his jokes."
+  },
+  {
+    "word": "divide __",
+    "options": ["into", "of", "with", "for"],
+    "correct": ["into"],
+    "example": "The book is divided into three parts."
+  },
+  {
+    "word": "dream __",
+    "options": ["of", "about", "with", "for"],
+    "correct": ["of", "about"],
+    "example": "She often dreams of traveling to exotic destinations and exploring new cultures. After watching the movie, he dreamt about being a superhero and saving the world."
+  },
+  {
+    "word": "exclude __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "The company excludes applicants who don't meet their qualifications."
+  },
+  {
+    "word": "experiment __",
+    "options": ["on", "of", "with", "for"],
+    "correct": ["on"],
+    "example": "The scientists are conducting experiments on the effects of climate change."
+  },
+  {
+    "word": "focus __",
+    "options": ["on", "of", "with", "for"],
+    "correct": ["on"],
+    "example": "She needs to focus on her studies if she wants to pass the exam."
+  },
+  {
+    "word": "help __",
+    "options": ["with", "of", "from", "for"],
+    "correct": ["with"],
+    "example": "Can you help me with my homework?"
+  },
+  {
+    "word": "hinder __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "The rainy weather hindered our progress on the construction project."
+  },
+  {
+    "word": "hope __",
+    "options": ["for", "of", "with", "in"],
+    "correct": ["for"],
+    "example": "We hope for a better future for our children."
+  },
+  {
+    "word": "impress __",
+    "options": ["with", "of", "from", "for"],
+    "correct": ["with"],
+    "example": "Her knowledge of art history impressed the museum curator."
+  },
+  {
+    "word": "include __",
+    "options": ["in", "of", "with", "for"],
+    "correct": ["in"],
+    "example": "The price of the hotel room includes breakfast."
+  },
+  {
+    "word": "insure __",
+    "options": ["against", "of", "with", "for"],
+    "correct": ["against"],
+    "example": "I need to insure my car against theft and damage."
+  },
+  {
+    "word": "interfere __",
+    "options": ["with", "of", "from", "for"],
+    "correct": ["with"],
+    "example": "Please don't interfere with my work, I need to focus."
+  },
+  {
+    "word": "invest __",
+    "options": ["in", "of", "with", "for"],
+    "correct": ["in"],
+    "example": "Many people invest in the stock market to grow their wealth."
+  },
+  {
+    "word": "involve __",
+    "options": ["in", "of", "with", "for"],
+    "correct": ["in"],
+    "example": "The project will involve several departments in the company."
+  },
+  {
+    "word": "link __",
+    "options": ["to", "with", "of", "for"],
+    "correct": ["to", "with"],
+    "example": "The article links poor sleep to an increased risk of heart disease. The charity event is linked with a well-known organization."
+  },
+  {
+    "word": "listen __",
+    "options": ["to", "with", "of", "for"],
+    "correct": ["to"],
+    "example": "She likes to listen to classical music while studying."
+  },
+  {
+    "word": "long __",
+    "options": ["for", "of", "with", "in"],
+    "correct": ["for"],
+    "example": "I long for the day when I can travel the world without any worries."
+  },
+  {
+    "word": "object __",
+    "options": ["to", "with", "of", "for"],
+    "correct": ["to"],
+    "example": "She objects to the use of pesticides on the crops."
+  },
+  {
+    "word": "operate __",
+    "options": ["on", "of", "with", "for"],
+    "correct": ["on"],
+    "example": "The surgeon will operate on the patient's knee tomorrow."
+  },
+  {
+    "word": "participate __",
+    "options": ["in", "of", "with", "for"],
+    "correct": ["in"],
+    "example": "Many people like to participate in charity events to give back to their community."
+  },
+  {
+    "word": "persist __",
+    "options": ["in", "of", "with", "for"],
+    "correct": ["in"],
+    "example": "She persisted in her studies despite the challenges she faced."
+  },
+  {
+    "word": "prepare __",
+    "options": ["for", "of", "with", "in"],
+    "correct": ["for"],
+    "example": "She is preparing for her final exams next month."
+  },
+  {
+    "word": "prevent __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "The vaccine can prevent people from getting sick."
+  },
+  {
+    "word": "prohibit __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "The school prohibits students from using their phones during class."
+  },
+  {
+    "word": "protest __",
+    "options": ["against", "of", "with", "for"],
+    "correct": ["against"],
+    "example": "The workers are protesting against the company's decision to cut their pay."
+  },
+  {
+    "word": "provide __",
+    "options": ["for", "with", "of", "in"],
+    "correct": ["for", "with"],
+    "example": "As a parent, it is essential to provide for your children's needs. The company provided us with all the necessary resources for the project."
+  },
+  {
+    "word": "react __",
+    "options": ["to", "against", "with", "for"],
+    "correct": ["to", "against"],
+    "example": "She reacted to the news with great excitement. The community reacted against the proposed construction project."
+  },
+  {
+    "word": "recognise __",
+    "options": ["as", "of", "with", "for"],
+    "correct": ["as"],
+    "example": "Many people recognize him as a talented musician."
+  },
+  {
+    "word": "recover __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "She is still recovering from her illness and is not yet able to work."
+  },
+  {
+    "word": "refer __",
+    "options": ["to", "with", "of", "for"],
+    "correct": ["to"],
+    "example": "Can you please refer me to a good restaurant in the area?"
+  },
+  {
+    "word": "reflect __",
+    "options": ["in", "on", "with", "for"],
+    "correct": ["in", "on"],
+    "example": "The company's success is reflected in its impressive sales figures. Take a moment to reflect on the lessons you've learned from this experience."
+  },
+  {
+    "word": "regard __",
+    "options": ["as", "of", "with", "for"],
+    "correct": ["as"],
+    "example": "She is regarded as one of the best actresses of her generation."
+  },
+  {
+    "word": "relate __",
+    "options": ["to", "with", "of", "for"],
+    "correct": ["to"],
+    "example": "I can relate to her experiences as a single mother."
+  },
+  {
+    "word": "rely __",
+    "options": ["on", "with", "of", "for"],
+    "correct": ["on"],
+    "example": "I rely on public transportation to get to work."
+  },
+  {
+    "word": "remind __",
+    "options": ["of", "with", "of", "for"],
+    "correct": ["of"],
+    "example": "Her dress reminds me of the one my mother used to wear."
+  },
+  {
+    "word": "resort __",
+    "options": ["to", "with", "of", "for"],
+    "correct": ["to"],
+    "example": "They had to resort to using candles when the power went out."
+  },
+  {
+    "word": "result __",
+    "options": ["in", "of", "with", "for"],
+    "correct": ["in"],
+    "example": "Her hard work resulted in a promotion at work."
+  },
+  {
+    "word": "search __",
+    "options": ["for", "with", "of", "in"],
+    "correct": ["for"],
+    "example": "I have been searching for my keys for over an hour."
+  },
+{    "word": "separate __",    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "The wall separates the kitchen from the living room."
+  },
+  {
+    "word": "spend __",
+    "options": ["on", "in", "with", "for"],
+    "correct": ["on"],
+    "example": "I like to spend my weekends on the beach."
+  },
+  {
+    "word": "stem __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "The word 'cat' stems from the Old English word 'catt.'"
+  },
+  {
+    "word": "subject __",
+    "options": ["to", "of", "with", "for"],
+    "correct": ["to"],
+    "example": "The painting is subject to the approval of the museum director."
+  },
+  {
+    "word": "suffer __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "She suffers from migraines."
+  },
+  {
+    "word": "think __",
+    "options": ["about", "of", "with", "for"],
+    "correct": ["about", "of"],
+    "example": "I've been thinking about taking a vacation soon. She thought of a brilliant idea for the new marketing campaign."
+  },
+  {
+    "word": "warn __",
+    "options": ["about", "of", "with", "for"],
+    "correct": ["about", "against"],
+    "example": "Meteorologists warned about the possibility of a severe storm. He warned against trusting strangers with personal information."
+  },
+  {
+    "word": "worry __",
+    "options": ["about", "of", "with", "for"],
+    "correct": ["about"],
+    "example": "Don't worry about me, I'll be fine."
+  },
+  {
+    "word": "afraid __",
+    "options": ["of", "about", "with", "for"],
+    "correct": ["of"],
+    "example": "I'm afraid of spiders."
+  },
+  {
+    "word": "angry __",
+    "options": ["with", "about", "of", "at"],
+    "correct": ["with", "about"],
+    "example": "She was angry with her friend for not keeping the secret. He was angry about the changes in the company policy."
+  },
+  {
+    "word": "anxious __",
+    "options": ["about", "of", "with", "for"],
+    "correct": ["about"],
+    "example": "I'm anxious about the job interview tomorrow."
+  },
+  {
+    "word": "available __",
+    "options": ["to", "for", "with", "of"],
+    "correct": ["to", "for"],
+    "example": "The new software update is available to all users. The conference room is available for booking on weekdays."
+  },
+  {
+    "word": "capable __",
+    "options": ["of", "with", "for", "in"],
+    "correct": ["of"],
+    "example": "She's capable of handling difficult situations."
+  },
+  {    "word": "separate __",    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "The wall separates the kitchen from the living room."
+  },
+  {
+    "word": "spend __",
+    "options": ["on", "in", "with", "for"],
+    "correct": ["on"],
+    "example": "I like to spend my weekends on the beach."
+  },
+  {
+    "word": "stem __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "The word 'cat' stems from the Old English word 'catt.'"
+  },
+  {
+    "word": "subject __",
+    "options": ["to", "of", "with", "for"],
+    "correct": ["to"],
+    "example": "The painting is subject to the approval of the museum director."
+  },
+  {
+    "word": "suffer __",
+    "options": ["from", "of", "with", "for"],
+    "correct": ["from"],
+    "example": "She suffers from migraines."
+  },
+  {
+    "word": "think __",
+    "options": ["about", "of", "with", "for"],
+    "correct": ["about", "of"],
+    "example": "I often think about my future. / What do you think of this idea?"
+  },
+  {
+    "word": "warn __",
+    "options": ["about", "of", "with", "for"],
+    "correct": ["about", "against"],
+    "example": "The doctor warned me about the side effects of the medication."
+  },
+  {
+    "word": "worry __",
+    "options": ["about", "of", "with", "for"],
+    "correct": ["about"],
+    "example": "Don't worry about me, I'll be fine."
+  },
+  {
+    "word": "afraid __",
+    "options": ["of", "about", "with", "for"],
+    "correct": ["of"],
+    "example": "I'm afraid of spiders."
+  },
+  {
+    "word": "angry __",
+    "options": ["with", "about", "of", "at"],
+    "correct": ["with", "about"],
+    "example": "She's angry with me for forgetting her birthday. / The protesters are angry about the government's decision."
+  },
+  {
+    "word": "anxious __",
+    "options": ["about", "of", "with", "for"],
+    "correct": ["about"],
+    "example": "I'm anxious about the job interview tomorrow."
+  },
+  {
+    "word": "available __",
+    "options": ["to", "for", "with", "of"],
+    "correct": ["to", "for"],
+    "example": "The hotel room is available for two nights. / The manager is available to answer any questions."
+  },
+  {
+    "word": "capable __",
+    "options": ["of", "with", "for", "in"],
+    "correct": ["of"],
+    "example": "She's capable of handling difficult situations."
+  },
+  {    "word": "confident __",    "options": ["in", "of", "at", "with"],
+    "correct": ["of"],
+    "example": "I'm confident of my ability to do the job."
+  },
+  {
+    "word": "delighted __",
+    "options": ["of", "in", "with", "for"],
+    "correct": ["with"],
+    "example": "I was delighted with the outcome of the meeting."
+  },
+  {
+    "word": "dependent __",
+    "options": ["on", "of", "with", "to"],
+    "correct": ["on"],
+    "example": "I'm dependent on my car to get to work."
+  },
+  {
+    "word": "different __",
+    "options": ["to", "from", "with", "of"],
+    "correct": ["from", "to"],
+    "example": "Their approach to the problem is different from ours. The new model is different to the old one in terms of design."
+  },
+  {
+    "word": "disappointed __",
+    "options": ["in", "with", "of", "by"],
+    "correct": ["with", "by"],
+    "example": "I was disappointed with/by the service at the restaurant."
+  },
+  {
+    "word": "frightened __",
+    "options": ["of", "with", "about", "by"],
+    "correct": ["of", "by"],
+    "example": "She's frightened of/by spiders."
+  },
+  {
+    "word": "good/bad/clever __",
+    "options": ["at", "in", "to", "with"],
+    "correct": ["at"],
+    "example": "She's really good at playing the piano. He's bad at keeping secrets. They are clever at finding solutions to complex problems."
+  },
+  {
+    "word": "independent __",
+    "options": ["on", "of", "from", "to"],
+    "correct": ["of", "from"],
+    "example": "The investigation will be conducted independent of any political influence. Her research is independent from the previous studies."
+  },
+  {
+    "word": "interested __",
+    "options": ["in", "of", "with", "about"],
+    "correct": ["in"],
+    "example": "I'm interested in learning a new language."
+  },
+  {
+    "word": "involved __",
+    "options": ["in", "of", "to", "with"],
+    "correct": ["in", "with"],
+    "example": "He's involved in/with the project."
+  },
+  {
+    "word": "kind __",
+    "options": ["in", "of", "with", "to"],
+    "correct": ["to"],
+    "example": "She's always been kind to me."
+  },
+  {
+    "word": "pleased __",
+    "options": ["of", "with", "to", "about"],
+    "correct": ["with"],
+    "example": "I'm pleased with my progress so far."
+  },
+  {
+    "word": "prejudiced __",
+    "options": ["in", "against", "with", "toward"],
+    "correct": ["against"],
+    "example": "She's prejudiced against people of other races."
+  },
+  {
+    "word": "proud __",
+    "options": ["of", "for", "with", "to"],
+    "correct": ["of"],
+    "example": "I'm so proud of you for finishing your degree."
+  },
+  {
+    "word": "relevant __",
+    "options": ["to", "for", "with", "in"],
+    "correct": ["to"],
+    "example": "Your experience is very relevant to this position."
+  },
+  {
+    "word": "responsible __",
+    "options": ["to", "for", "with", "in"],
+    "correct": ["to", "for"],
+    "example": "As a manager, you are responsible to your team for providing guidance. They are responsible for organizing the event."
+  },
+  {
+    "word": "shocked __",
+    "options": ["at", "by", "with", "to"],
+    "correct": ["at", "by"],
+    "example": "She was shocked at the amount of work she had to do. We were shocked by the sudden turn of events."
+  },
+  {
+    "word": "sorry __",
+    "options": ["about", "for", "with", "to"],
+    "correct": ["about", "for"],
+    "example": "I am sorry about the mess I left in the kitchen. He's sorry for the inconvenience he caused."
+  },
+  {
+    "word": "suitable __",
+    "options": ["for", "to", "with", "in"],
+    "correct": ["for"],
+    "example": "This jacket is suitable for cold weather."
+  },
+  {
+    "word": "suited __",
+    "options": ["to", "for", "with", "in"],
+    "correct": ["to"],
+    "example": "His skills are well-suited to this job."
+  },
+  {
+    "word": "surprised __",
+    "options": ["at", "by", "with", "to"],
+    "correct": ["at", "by"],
+    "example": "I was surprised at how quickly she learned the new skill. They were surprised by the warm welcome they received."
+  },
+  {
+    "word": "tired __",
+    "options": ["of", "with", "from", "at"],
+    "correct": ["of"],
+    "example": "I'm tired of doing the same thing every day."
+  },
+  {
+    "word": "upset __",
+    "options": ["about", "with", "to", "by"],
+    "correct": ["about"],
+    "example": "She's upset about losing her job."
+  },
+  {
+    "word": "attention __",
+    "options": ["to", "with", "for", "on"],
+    "correct": ["to"],
+    "example": "Pay attention to the road when you're driving."
+  },
+  {    "word": "belief __",    "options": ["in", "of", "for", "about"],
+    "correct": ["in"],
+    "example": "He has a strong belief in his abilities."
+  },
+  {
+    "word": "capacity __",
+    "options": ["in", "of", "for", "about"],
+    "correct": ["for"],
+    "example": "This machine has a large capacity for printing documents."
+  },
+  {
+    "word": "confidence __",
+    "options": ["in", "of", "for", "about"],
+    "correct": ["in"],
+    "example": "I have confidence in my team's ability to win."
+  },
+  {
+    "word": "criticism __",
+    "options": ["in", "of", "for", "about"],
+    "correct": ["of"],
+    "example": "The book received harsh criticism from many reviewers."
+  },
+  {
+    "word": "difference __",
+    "options": ["in", "of", "for", "about"],
+    "correct": ["between"],
+    "example": "What is the difference between a frog and a toad?"
+  },
+  {
+    "word": "difficulty __",
+    "options": ["in", "of", "for", "about"],
+    "correct": ["with"],
+    "example": "He had difficulty in understanding the complex instructions. She faced difficulty with adjusting to the new work environment."
+  },
+  {
+    "word": "discussion __",
+    "options": ["in", "of", "for", "about"],
+    "correct": ["about"],
+    "example": "We had a discussion about the upcoming project."
+  },
+  {
+    "word": "experience __",
+    "options": ["in", "of", "for", "about"],
+    "correct": ["of"],
+    "example": "I have had a lot of experience with this type of work."
+  },
+  {
+    "word": "information __",
+    "options": ["in", "of", "for", "about"],
+    "correct": ["about"],
+    "example": "The website offers detailed information on the application process. You can find more information about the event on our social media pages."
+  },
+  {
+    "word": "problem __",
+    "options": ["in", "of", "for", "about"],
+    "correct": ["with"],
+    "example": " The problem of pollution is becoming increasingly serious. There's a problem with the printer; it's not working properly."
+  },
+  {
+    "word": "reputation __",
+    "options": ["in", "of", "for", "about"],
+    "correct": ["for"],
+    "example": "This company has a reputation for excellent customer service."
+  },
+  {
+    "word": "trust __",
+    "options": ["in", "of", "for", "about"],
+    "correct": ["in"],
+    "example": "I have complete trust in my best friend."
+  }
+]
