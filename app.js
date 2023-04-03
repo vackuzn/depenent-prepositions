@@ -25,7 +25,6 @@ function toggleExample() {
 
   if (exampleContent.style.display === "none") {
     exampleContent.style.display = "block";
-    exampleContent.textContent = questions[currentIndex].example;
     exampleToggle.textContent = "Hide Example";
   } else {
     exampleContent.style.display = "none";
@@ -42,8 +41,7 @@ function shuffleArray(array) {
 }
 
 function showQuestion(question) {
-  const exampleContent = document.getElementById("example-content");
-  exampleContent.style.display = "none";
+  populateExampleContent(question)
 
   wordElement.innerText = question.word;
   const options = [...question.options];
@@ -53,19 +51,32 @@ function showQuestion(question) {
   option4Element.innerText = options.splice(Math.floor(Math.random() * options.length), 1)[0];
 }
 
+function populateExampleContent(question) {
+  const exampleContent = document.getElementById("example-content");
+  exampleContent.style.display = "none";
+
+  let examplesHTML = "";
+  for (let i = 0; i < question.examples.length; i++) {
+    examplesHTML += "<div>" + question.examples[i] + "</div>";
+  }
+  exampleContent.innerHTML = examplesHTML;
+}
+
 function checkAnswer(optionId) {
   const option = document.getElementById(optionId);
   const userAnswer = option.innerText;
   const currentQuestion = questions[currentIndex];
 
-  if (currentQuestion.correct.includes(userAnswer)) {
-    option.classList.add('correct');
-    correctAnswers++;
-  } else {
+  if (!currentQuestion.correct.includes(userAnswer)) {
     option.classList.add('incorrect');
-    questions.push(currentQuestion); // Move the current question to the end of the questions array
-    failedAnswers++;
+    option.disabled = true;
+    onQuestionFailed(currentQuestion);
+
+    return;
   }
+
+  option.classList.add('correct');
+  correctAnswers++;
 
   disableOptions();
   updateProgress();
@@ -74,7 +85,7 @@ function checkAnswer(optionId) {
     const exampleToggle = document.getElementById("example-toggle");
     exampleToggle.textContent = "Show Example";
 
-    option.classList.remove('correct', 'incorrect');
+    resetOptionsStyle();
     enableOptions();
     currentIndex++;
     if (currentIndex < questions.length) {
@@ -83,6 +94,15 @@ function checkAnswer(optionId) {
       alert('Task completed!');
     }
   }, 1000);
+}
+
+function onQuestionFailed(question) {
+  const lastQuestion = questions[questions.length - 1];
+  if (question != lastQuestion) {
+    questions.push(question); // Move the current question to the end of the questions array
+    failedAnswers++;
+    updateProgress();
+  }
 }
 
 function disableOptions() {
@@ -97,6 +117,13 @@ function enableOptions() {
   option2Element.disabled = false;
   option3Element.disabled = false;
   option4Element.disabled = false;
+}
+
+function resetOptionsStyle() {
+  option1Element.classList.remove('correct', 'incorrect');
+  option2Element.classList.remove('correct', 'incorrect');
+  option3Element.classList.remove('correct', 'incorrect');
+  option4Element.classList.remove('correct', 'incorrect');
 }
 
 function updateProgress() {
