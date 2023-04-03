@@ -1,8 +1,10 @@
 const wordElement = document.getElementById('word');
-const option1Element = document.getElementById('option1');
-const option2Element = document.getElementById('option2');
-const option3Element = document.getElementById('option3');
-const option4Element = document.getElementById('option4');
+const optionElements = [
+  document.getElementById('option1'),
+  document.getElementById('option2'),
+  document.getElementById('option3'),
+  document.getElementById('option4')
+  ]
 const progressElement = document.getElementById('progress');
 
 let questions = [];
@@ -45,10 +47,9 @@ function showQuestion(question) {
 
   wordElement.innerText = question.word;
   const options = [...question.options];
-  option1Element.innerText = options.splice(Math.floor(Math.random() * options.length), 1)[0];
-  option2Element.innerText = options.splice(Math.floor(Math.random() * options.length), 1)[0];
-  option3Element.innerText = options.splice(Math.floor(Math.random() * options.length), 1)[0];
-  option4Element.innerText = options.splice(Math.floor(Math.random() * options.length), 1)[0];
+  optionElements.forEach(optionElement =>
+    optionElement.innerText = options.splice(Math.floor(Math.random() * options.length), 1)[0]
+  );
 }
 
 function populateExampleContent(question) {
@@ -75,7 +76,7 @@ function checkAnswer(optionId) {
     return;
   }
 
-  option.classList.add('correct');
+  markAllCorrectAnswers(currentQuestion.correct)
   correctAnswers++;
 
   disableOptions();
@@ -106,24 +107,29 @@ function onQuestionFailed(question) {
 }
 
 function disableOptions() {
-  option1Element.disabled = true;
-  option2Element.disabled = true;
-  option3Element.disabled = true;
-  option4Element.disabled = true;
+  optionElements.forEach(optionElement =>
+    optionElement.disabled = true
+  );
 }
 
 function enableOptions() {
-  option1Element.disabled = false;
-  option2Element.disabled = false;
-  option3Element.disabled = false;
-  option4Element.disabled = false;
+  optionElements.forEach(optionElement =>
+    optionElement.disabled = false
+  );
+}
+
+function markAllCorrectAnswers(correctOptions) {
+  optionElements.forEach(optionElement => {
+    if (correctOptions.includes(optionElement.innerText)) {
+      optionElement.classList.add('correct')
+    }
+  });
 }
 
 function resetOptionsStyle() {
-  option1Element.classList.remove('correct', 'incorrect');
-  option2Element.classList.remove('correct', 'incorrect');
-  option3Element.classList.remove('correct', 'incorrect');
-  option4Element.classList.remove('correct', 'incorrect');
+  optionElements.forEach(optionElement =>
+    optionElement.classList.remove('correct', 'incorrect')
+  );
 }
 
 function updateProgress() {
