@@ -2187,5 +2187,37 @@
         "I have complete trust in my best friend.",
         "It's important to have trust in your teammates to achieve success together."
      ]
+  },
+  {
+     "word":"strive __",
+     "options":[
+        "in",
+        "of",
+        "for",
+        "to"
+     ],
+     "correct":[
+        "to"
+     ],
+     "examples":[
+        "She always strives to achieve her personal best in everything she does.",
+        "She strives to maintain a healthy work-life balance by prioritizing her time and commitments."
+     ]
+  },
+  {
+     "word":"lean __",
+     "options":[
+        "in",
+        "towards",
+        "for",
+        "to"
+     ],
+     "correct":[
+        "towards"
+     ],
+     "examples":[
+        "After evaluating the various options, he started to lean towards accepting the job offer from the smaller company.",
+        "After considering all the options, he began to lean towards accepting the job offer in New York."
+     ]
   }
 ]
