@@ -13,12 +13,24 @@ let totalQuestions = 0;
 let correctAnswers = 0;
 let failedAnswers = 0;
 
-async function fetchQuestions() {
+function onWordCountSelected(wordCount) {
+  fetchQuestions(wordCount);
+  document.getElementById("choose-number-of-words").style.display = "none";
+  document.getElementById("training").style.display = "block";
+}
+
+async function fetchQuestions(wordCount) {
   const response = await fetch('data.json');
   const data = await response.json();
   questions = shuffleArray(data);
+
+  if (wordCount > 0) {
+    questions = questions.slice(0, wordCount);
+  }
+
   totalQuestions = questions.length;
   showQuestion(questions[currentIndex]);
+  updateProgress();
 }
 
 function toggleExample() {
@@ -133,7 +145,5 @@ function resetOptionsStyle() {
 }
 
 function updateProgress() {
-  progressElement.innerText = `Progress: ${correctAnswers}/${totalQuestions} | Correct: ${correctAnswers} | Wrong: ${failedAnswers}`;
+  progressElement.innerText = `Progress: ${correctAnswers}/${totalQuestions} | Errors: ${failedAnswers}`;
 }
-
-fetchQuestions();

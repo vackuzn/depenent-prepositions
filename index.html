@@ -7,7 +7,15 @@
   <title>Dependent Prepositions Training</title>
 </head>
 <body>
-  <div class="container">
+  <div id="choose-number-of-words" class="container card">
+    <h1>Pick number of words</h1>
+    <div class="word-count-buttons">
+      <button class="word-count-button" onclick="onWordCountSelected(10)">10</button>
+      <button class="word-count-button" onclick="onWordCountSelected(25)">25</button>
+      <button class="word-count-button" onclick="onWordCountSelected(50)">50</button>
+    </div>
+  </div>
+  <div id="training" class="container">
     <h1>Dependent Prepositions Training</h1>
     <div class="card">
       <p id="word" class="word"></p>
